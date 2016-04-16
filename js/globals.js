@@ -13,3 +13,11 @@ shapeshift.Globals.LEFT = {
   LR : {x : shapeshift.Globals.WIDTH/2, y : shapeshift.Globals.HEIGHT},
   CENTER : {x : shapeshift.Globals.WIDTH/4, y : shapeshift.Globals.HEIGHT/2}
 };
+
+shapeshift.Globals.RIGHT = {
+  WIDTH : shapeshift.Globals.WIDTH/2,
+  CENTER : {
+    x : (shapeshift.Globals.WIDTH / 4) * 3,
+    y : shapeshift.Globals.HEIGHT/2
+  }
+};
